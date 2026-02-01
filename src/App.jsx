@@ -95,12 +95,13 @@ const App = () => {
   };
 
   // Daftar Gambar untuk Hero Slideshow
-  const heroImages = [
-    "https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80", 
-    "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80", 
-    "https://images.unsplash.com/photo-1588072432836-e10032774350?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80", 
-    "https://images.unsplash.com/photo-1562774053-701939374585?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80"
-  ];
+const heroImages = [
+  "/image/hero1.jpg",
+  "/image/hero2.jpg",
+  "/image/hero3.jpg",
+  "/image/hero4.jpg"
+];
+
 
   // Data Prestasi
   const achievements = [
@@ -714,12 +715,29 @@ const App = () => {
             
             {/* COLUMN 1: BRANDING (Social Media Removed) */}
             <div className="col-span-1">
-               <div className="flex items-center space-x-3 mb-6">
-                <div className="w-10 h-10 bg-emerald-500 rounded-lg flex items-center justify-center text-white font-bold text-lg shadow-lg">S4</div>
-                <div className="font-extrabold text-2xl text-white tracking-wide font-space">
-                  SMAN 4
-                </div>
-              </div>
+<div className="flex items-center space-x-3 mb-6">
+
+  {/* LOGO */}
+  <div className="w-12 h-12 rounded-xl overflow-hidden shadow-lg">
+    <img 
+      src="/image/logo_smapa.PNG"
+      alt="Logo SMAN 4 Jember"
+      className="w-full h-full object-contain"
+    />
+  </div>
+
+  {/* NAMA SEKOLAH */}
+  <div className="flex flex-col">
+    <span className="font-extrabold text-2xl text-white tracking-wide font-space">
+      SMAN 4 JEMBER
+    </span>
+    <span className="text-sm text-emerald-200 tracking-widest">
+      Est. 1977
+    </span>
+  </div>
+
+</div>
+
               <p className="text-sm leading-relaxed mb-6 text-gray-400">
                 Sekolah menengah atas yang berkomitmen mencetak generasi unggul, berkarakter, dan berprestasi di tingkat nasional maupun global.
               </p>
