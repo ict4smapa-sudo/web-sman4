@@ -53,8 +53,8 @@ export default function VisionPage() {
                         <div className="absolute bottom-0 left-0 w-40 h-40 bg-white/10 rounded-full -ml-20 -mb-20"></div>
 
                         <div className="relative z-10">
-                            <div className="w-16 h-16 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center mx-auto mb-6 border border-white/30">
-                                <Star size={32} className="text-yellow-300" fill="currentColor" />
+                            <div className="w-16 h-16 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center mx-auto mb-6 border border-white/30 p-2">
+                                <img src="/image/logo_smapa.PNG" alt="Logo SMAN 4 Jember" className="w-full h-full object-contain" />
                             </div>
                             <h2 className="text-xl font-bold font-space mb-6 tracking-[0.2em] opacity-90 uppercase">Visi Sekolah</h2>
                             <p className="text-2xl md:text-4xl font-bold leading-relaxed font-space">
