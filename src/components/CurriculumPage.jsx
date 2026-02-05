@@ -29,7 +29,7 @@ export default function CurriculumPage() {
             </header>
 
             {/* MAIN CONTENT */}
-            <main className="container mx-auto px-6 py-12 -mt-10 relative z-20">
+            <main className="container mx-auto px-4 md:px-6 py-12 -mt-10 relative z-20">
                 <div className="bg-white rounded-3xl shadow-xl border border-gray-100 p-6 md:p-10 space-y-24">
 
                     {/* Section 1: Introduction */}
@@ -123,7 +123,7 @@ export default function CurriculumPage() {
                             </p>
                         </div>
 
-                        <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
+                        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                             <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 text-center hover:bg-white/20 transition-all duration-300">
                                 <div className="inline-flex items-center justify-center w-16 h-16 bg-white/20 rounded-full mb-4">
                                     <Heart size={32} className="text-white" />

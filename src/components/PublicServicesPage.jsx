@@ -29,7 +29,7 @@ export default function PublicServicesPage() {
             </header>
 
             {/* MAIN CONTENT */}
-            <main className="container mx-auto px-6 py-12 -mt-10 relative z-20">
+            <main className="container mx-auto px-4 md:px-6 py-12 -mt-10 relative z-20">
                 <div className="bg-white rounded-3xl shadow-xl border border-gray-100 p-6 md:p-10 space-y-24">
 
                     {/* Section 1: JAM OPERASIONAL */}
@@ -39,7 +39,7 @@ export default function PublicServicesPage() {
                                 <Clock size={24} className="text-white" />
                             </div>
                             <div className="flex-1">
-                                <h2 className="font-space font-bold text-2xl text-gray-900 mb-2">Jam Pelayanan Tata Usaha</h2>
+                                <h2 className="font-space font-bold text-lg md:text-2xl text-gray-900 mb-2">Jam Pelayanan Tata Usaha</h2>
                                 <p className="text-gray-600">Waktu operasional pelayanan administrasi sekolah</p>
                             </div>
                         </div>
@@ -76,7 +76,7 @@ export default function PublicServicesPage() {
                     <div>
                         <h2 className="font-space font-bold text-3xl text-gray-900 mb-8 text-center">Katalog Layanan</h2>
 
-                        <div className="grid md:grid-cols-2 gap-8">
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                             {/* Service 1: Legalisir */}
                             <div className="bg-white rounded-2xl p-6 border border-gray-200 hover:border-emerald-300 hover:shadow-xl transition-all duration-300">
                                 <div className="flex items-start gap-4 mb-4">
